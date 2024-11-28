@@ -6,9 +6,11 @@ int main() {
 	printf("n1=<Enter num1>\nn2=<Enter num2>\n");
 	scanf("%d \n %d",&n1 , &n2);
 	if(n1>n2){
-		printf("n1 is more n2");
+		int a = n1-n2;
+		printf("%d",a);
 	}
   	else{
-  		printf("n2 is more n1");
+  		int a = n2-n1;
+  		printf("%d",a);
 	  }
 }
